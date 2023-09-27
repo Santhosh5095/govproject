@@ -1,0 +1,132 @@
+2023.09.14 18:08:46 INFO  Started: Metals version 1.0.1 in folders 'C:\Projects\WaterWeb-SIH' for client Visual Studio Code 1.82.1.
+Sep 14, 2023 6:08:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 14, 2023 6:08:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 14, 2023 6:08:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 14, 2023 6:08:46 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Projects\WaterWeb-SIH\.metals\metals (H2 2.1)
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.035s)
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 14, 2023 6:08:47 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.048s)
+2023.09.14 18:08:47 INFO  time: initialize in 1.24s
+2023.09.14 18:08:52 INFO  Running List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Projects\WaterWeb-SIH)
+2023.09.14 18:08:54 INFO  Scala CLI: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.14 18:08:54 INFO  Scala CLI: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.09.14 18:08:54 INFO  Scala CLI: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.14 18:08:54 INFO  Scala CLI: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.14 18:08:54 INFO  Scala CLI: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.14 18:08:55 INFO  Scala CLI: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.09.14 18:08:55 INFO  Attempting to connect to the build server...
+2023.09.14 18:08:55 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
+2023.09.14 18:08:56 INFO  Attempting to connect to the build server...
+2023.09.14 18:08:56 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
+2023.09.14 18:08:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Projects\WaterWeb-SIH\.metals\bsp.trace.json or C:\Users\Siddh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.14 18:08:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Projects\WaterWeb-SIH\.metals\bsp.trace.json or C:\Users\Siddh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.14 18:09:00 INFO  no build target found for C:\Projects\WaterWeb-SIH\data-pipeline\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.09.14 18:09:04 INFO  time: code lens generation in 12s
+2023.09.14 18:09:06 INFO  time: Connected to build server in 10s
+2023.09.14 18:09:06 INFO  Connected to Build server: scala-cli v0.1.17
+2023.09.14 18:09:06 INFO  time: Connected to build server in 10s
+2023.09.14 18:09:06 INFO  Connected to Build server: scala-cli v0.1.17
+2023.09.14 18:09:07 INFO  time: Imported build in 1.09s
+2023.09.14 18:09:07 INFO  time: Imported build in 1.07s
+2023.09.14 18:09:09 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 0.1.17' (since 4.147s)
+2023.09.14 18:09:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.14 18:09:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.14 18:09:14 INFO  time: compiled project_bd2c96d2de in 5.26s
+2023.09.14 18:09:16 INFO  time: indexed workspace in 8.17s
+2023.09.14 18:09:18 INFO  time: indexed workspace in 10s
+2023.09.14 18:09:59 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.14 18:10:01 INFO  time: compiled project_bd2c96d2de in 2.72s
+2023.09.14 18:10:12 WARN  no build target for: C:\Projects\WaterWeb-SIH\data-pipeline\build.sbt
+2023.09.14 18:10:12 WARN  Could not find semantic tokens for: file:///C:/Projects/WaterWeb-SIH/data-pipeline/build.sbt
+2023.09.14 18:10:12 WARN  Could not find semantic tokens for: file:///C:/Projects/WaterWeb-SIH/data-pipeline/build.sbt
+2023.09.14 18:10:14 WARN  no build target for: C:\Projects\WaterWeb-SIH\data-pipeline\build.sbt
+2023.09.14 18:13:15 INFO  Shutting down server
+2023.09.14 18:13:15 INFO  shutting down Metals
+2023.09.14 18:13:15 INFO  Shut down connection with build server.
+2023.09.14 18:13:15 INFO  Exiting server
+2023.09.14 18:13:15 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
+2023.09.16 00:23:42 INFO  Started: Metals version 1.0.1 in folders 'C:\Projects\WaterWeb-SIH' for client Visual Studio Code 1.82.1.
+Sep 16, 2023 12:23:42 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 16, 2023 12:23:42 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 16, 2023 12:23:42 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 16, 2023 12:23:42 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Projects\WaterWeb-SIH\.metals\metals (H2 2.1)
+Sep 16, 2023 12:23:42 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.033s)
+Sep 16, 2023 12:23:42 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 16, 2023 12:23:42 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.16 00:23:42 INFO  time: initialize in 0.72s
+2023.09.16 00:23:44 INFO  Attempting to connect to the build server...
+2023.09.16 00:23:44 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
+2023.09.16 00:23:44 WARN  No build session currently active to reload.
+2023.09.16 00:23:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Projects\WaterWeb-SIH\.metals\bsp.trace.json or C:\Users\Siddh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.16 00:23:52 INFO  time: Connected to build server in 7.48s
+2023.09.16 00:23:52 INFO  Connected to Build server: scala-cli v0.1.17
+2023.09.16 00:23:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.16 00:23:54 INFO  time: compiled project_bd2c96d2de in 1.78s
+2023.09.16 00:23:54 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.16 00:23:56 INFO  time: compiled project_bd2c96d2de in 1.34s
+2023.09.16 00:23:57 INFO  time: indexed workspace in 5.58s
+2023.09.16 00:25:09 INFO  Shutting down server
+2023.09.16 00:25:09 INFO  shutting down Metals
+2023.09.16 00:25:09 INFO  Shut down connection with build server.
+2023.09.16 00:25:09 INFO  Exiting server
+2023.09.16 00:25:24 INFO  Started: Metals version 1.0.1 in folders 'C:\Projects\WaterWeb-SIH' for client Visual Studio Code 1.82.1.
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Projects\WaterWeb-SIH\.metals\metals (H2 2.1)
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.027s)
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 16, 2023 12:25:25 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.16 00:25:25 INFO  time: initialize in 0.6s
+2023.09.16 00:25:27 INFO  Attempting to connect to the build server...
+2023.09.16 00:25:27 INFO  Running BSP server List(C:\Users\Siddh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Projects\WaterWeb-SIH\.scala-build\ide-options-v2.json, C:\Projects\WaterWeb-SIH)
+2023.09.16 00:25:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Projects\WaterWeb-SIH\.metals\bsp.trace.json or C:\Users\Siddh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.09.16 00:25:27 WARN  No build session currently active to reload.
+2023.09.16 00:25:31 INFO  BSP server: Checking https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json
+2023.09.16 00:25:31 INFO  BSP server: Checked https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json
+2023.09.16 00:25:31 INFO  BSP server: Downloading https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json
+2023.09.16 00:25:32 INFO  BSP server: Downloaded https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json
+2023.09.16 00:25:34 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.16 00:25:34 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.16 00:25:34 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.16 00:25:38 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.09.16 00:25:46 INFO  time: Connected to build server in 19s
+2023.09.16 00:25:46 INFO  Connected to Build server: scala-cli v0.1.17
+2023.09.16 00:25:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.16 00:25:50 INFO  time: compiled project_bd2c96d2de in 1.62s
+2023.09.16 00:25:50 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.09.16 00:25:51 INFO  time: compiled project_bd2c96d2de in 1.03s
+2023.09.16 00:25:52 INFO  time: indexed workspace in 5.09s
